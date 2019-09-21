@@ -8,10 +8,16 @@ body {
     background-size: 1550px 740px;
 }
 
-img {
+.stork {
     width: 20%;
     height: 20%;
     position: absolute;
     right: 55%;
     top: 5%;
+}
+
+.loading {
+    position: absolute;
+    right: 35%;
+    top: 30%
 }
