@@ -2,7 +2,7 @@ body {
 
     background-image: url("images/background.jpg");  
     background-position: center;
-    background-size: auto;    
+    background-size: cover;    
     background-attachment: fixed;
     background-repeat: no-repeat;
     /* background-size: 1550px 740px; */
@@ -18,20 +18,18 @@ body {
 
 .loading {
     position: absolute;
-    right: 35%;
-    top: 30%;
+    right: 55%;
+    top: 50%;
     width: 220px;;
     height: 150px;
 }
- 
-#arrival {
-    position: relative;
-    
-} 
 
 .text {
     background-color: rgb(240, 136, 39);
     text-align: center;
-    /* opacity: 0.5; */
+    opacity: 0.9;
     border-radius: 10%;
+    position: absolute;
+    top: 30%;
+    right: 50%;
 }
