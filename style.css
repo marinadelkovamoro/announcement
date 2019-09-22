@@ -12,14 +12,14 @@ body {
     width: 20%;
     height: 20%;
     position: absolute;
-    right: 55%;
+    right: 78%;
     top: 5%;
 }
 
 .loading {
     position: absolute;
-    right: 55%;
-    top: 50%;
+    right: 45%;
+    top: 65%;
     width: 220px;;
     height: 150px;
 }
@@ -30,6 +30,12 @@ body {
     opacity: 0.9;
     border-radius: 10%;
     position: absolute;
-    top: 30%;
-    right: 50%;
+    top: 45%;
+    right: 40%;
+}
+
+#arrival {
+    background-color: yellow;
+    opacity: 0.9;
+    border-radius: 10%;
 }
