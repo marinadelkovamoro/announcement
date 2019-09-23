@@ -1,5 +1,4 @@
 body {  
-
     background-image: url("images/background.jpg");  
     background-repeat: no-repeat;
     background-position: center;
@@ -19,24 +18,15 @@ body {
     top: 5%;
 }
 
-/* .loading {
-    position: absolute;
-    right: 25%;
-    top: 95%;
-    width: 220px;;
-    height: 150px;
-} */
-
 .text {
     background-color: rgb(240, 136, 39);
     text-align: center;
     opacity: 0.8;
     border-radius: 10%;
     position: absolute;
-    top: 45%;
+    top: 35%;
     right: 40%;
     font-family: 'Mansalva', cursive;
-    /* font-family: 'Acme', sans-serif; */
 }
 
 #arrival {

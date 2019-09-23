@@ -1,12 +1,11 @@
 console.log("This works!");
 
-
 $("#clicked").click(function () {
   $(".container").append('<h3> 🎉 Whoo-Hoo! 🎉 </h3><h4> The Stork took off! </h4><h5>Estimated Time of Arrival:</h5><p id="arrival"> </p>');
+  $("#clicked").hide();
 });
 
-{/* <div><img src=images/please_wait.gif alt="loading" class="loading"></div> */}
-
+// Coundown 
 // Set the date we're counting down to
 var countDownDate = new Date("Jun 1, 2020 15:37:25").getTime();
 
