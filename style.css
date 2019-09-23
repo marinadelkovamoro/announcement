@@ -11,10 +11,10 @@ body {
 }
 
 .stork {
-    width: 20%;
-    height: 20%;
+    width: 17%;
+    height: 17%;
     position: absolute;
-    right: 78%;
+    right: 70%;
     top: 5%;
 }
 
@@ -22,7 +22,7 @@ body {
     background-color: rgb(240, 136, 39);
     text-align: center;
     opacity: 0.8;
-    border-radius: 10%;
+    border-radius: 15px;
     position: absolute;
     top: 35%;
     right: 40%;
@@ -32,11 +32,34 @@ body {
 #arrival {
     background-color: yellow;
     opacity: 0.9;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 #clicked {
     position: absolute;
     right: 50%;
-    top: 35%;
+    top: 40%;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Mansalva', cursive;
+    font-size: xx-large;
+    }
+      
+#clicked:hover {
+    background-color: #3e8e41
+}
+      
+#clicked:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);       
 }
