@@ -1,11 +1,14 @@
 body {  
 
     background-image: url("images/background.jpg");  
-    background-position: center;
-    background-size: cover;    
-    background-attachment: fixed;
     background-repeat: no-repeat;
-    /* background-size: 1550px 740px; */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+        /* background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover; */
 }
 
 .stork {
@@ -16,18 +19,18 @@ body {
     top: 5%;
 }
 
-.loading {
+/* .loading {
     position: absolute;
     right: 25%;
     top: 95%;
     width: 220px;;
     height: 150px;
-}
+} */
 
 .text {
     background-color: rgb(240, 136, 39);
     text-align: center;
-    opacity: 0.9;
+    opacity: 0.8;
     border-radius: 10%;
     position: absolute;
     top: 45%;
@@ -40,4 +43,10 @@ body {
     background-color: yellow;
     opacity: 0.9;
     border-radius: 10%;
+}
+
+#clicked {
+    position: absolute;
+    right: 50%;
+    top: 35%;
 }
