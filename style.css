@@ -18,8 +18,8 @@ body {
 
 .loading {
     position: absolute;
-    right: 45%;
-    top: 65%;
+    right: 25%;
+    top: 95%;
     width: 220px;;
     height: 150px;
 }
@@ -32,6 +32,8 @@ body {
     position: absolute;
     top: 45%;
     right: 40%;
+    font-family: 'Mansalva', cursive;
+    /* font-family: 'Acme', sans-serif; */
 }
 
 #arrival {
