@@ -1,7 +1,7 @@
 console.log("This works!");
 
 $("#clicked").click(function () {
-  $(".container").append('<h2> 🎉 Whoo-Hoo! 🎉 </h2><h3> The Stork took off! </h3><h4>Estimated Time of Arrival:</h4><h3 id="arrival"> </h3>');
+  $(".text").append('<h2> 🎉 Whoo-Hoo! 🎉 </h2><h3> The Stork took off! </h3><h4>Estimated Time of Arrival:</h4><h3 id="arrival"> </h3>');
   $("#clicked").hide();
 });
 

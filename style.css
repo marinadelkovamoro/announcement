@@ -4,10 +4,6 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: 100% 100%;
-        /* background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover; */
 }
 
 .stork {
@@ -63,3 +59,32 @@ body {
         box-shadow: 0 5px #666;
         transform: translateY(4px);       
 }
+
+
+@media (max-width: 576px) { 
+   
+ 
+ }
+
+ @media (max-width: 768px) {
+ 
+    
+ }
+
+@media (max-width: 992px) { 
+
+        
+    
+}
+
+@media (max-width: 1200px) {
+    #clicked {
+        top: 30%;
+        right: 30%;
+    }
+    .text {
+        top: 30%;
+        left: 0.05%;
+    }
+}
+
